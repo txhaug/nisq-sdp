@@ -18,9 +18,10 @@ NISQSDP.py implements finding Hamiltonian ground state with optional symmetry co
 Can be run either using generalized eigenvalue problem (standalone with Python, limited to Hamiltonians) or with SDP (requires installation of Matlab). To solve with SDP requires installation of Matlab, CVXPY and matlab engine for Python. 
 Also implements a safe way to solve generalized eigenvalue problem (which is robust against small or negative eigenvalues of the E_matrix) using two regular eigenvalue problems.
 
+NOTE: This program runs only up to qutip version 4.7.5, to install please use "pip install qutip==4.7.5"
 
 By Tobias Haug, Kishor Bharti
 
 Prerequisits:
-qutip
+qutip 4.7.5
 cvxpy
